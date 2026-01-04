@@ -1,0 +1,225 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="9S-gqzQT8JOKvPyBl-xi">
+    <mxGraphModel dx="1278" dy="1284" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-49" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Qtvv-E3vwUSL6Ql5mvff-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-50" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qtvv-E3vwUSL6Ql5mvff-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户管理模块" vertex="1">
+          <mxGeometry height="54" width="156" x="893" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户登录" vertex="1">
+          <mxGeometry height="54" width="124" x="910" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="权限管理" vertex="1">
+          <mxGeometry height="54" width="124" x="909" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户信息管理" vertex="1">
+          <mxGeometry height="54" width="156" x="1659" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户名密码登录" vertex="1">
+          <mxGeometry height="54" width="172" x="560" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="JWT Token 生成" vertex="1">
+          <mxGeometry height="54" width="173" x="782" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="记住我功能" vertex="1">
+          <mxGeometry height="54" width="140" x="1005" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="登录失败次数记录" vertex="1">
+          <mxGeometry height="54" width="188" x="1195" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="失败5次锁定账号30分钟" vertex="1">
+          <mxGeometry height="54" width="229" x="1174" y="-182" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="角色定义" vertex="1">
+          <mxGeometry height="54" width="124" x="632" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="管理员" vertex="1">
+          <mxGeometry height="54" width="108" x="474" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="工作人员" vertex="1">
+          <mxGeometry height="54" width="124" x="632" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="游客" vertex="1">
+          <mxGeometry height="54" width="92" x="806" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="权限分配" vertex="1">
+          <mxGeometry height="54" width="124" x="1079" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="管理员分配角色" vertex="1">
+          <mxGeometry height="54" width="172" x="948" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="调整用户权限" vertex="1">
+          <mxGeometry height="54" width="156" x="1170" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="个人信息维护" vertex="1">
+          <mxGeometry height="54" width="156" x="1330" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="修改姓名/联系方式/邮箱" vertex="1">
+          <mxGeometry height="54" width="237" x="1290" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="密码管理" vertex="1">
+          <mxGeometry height="54" width="124" x="1675" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="修改密码" vertex="1">
+          <mxGeometry height="54" width="124" x="1576" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="管理员重置密码" vertex="1">
+          <mxGeometry height="54" width="172" x="1750" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户账号管理" vertex="1">
+          <mxGeometry height="54" width="156" x="2043" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="启用账号" vertex="1">
+          <mxGeometry height="54" width="124" x="1972" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="禁用账号" vertex="1">
+          <mxGeometry height="54" width="124" x="2146" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-27" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-29" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="646" y="-311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-30" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="869" y="-311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-31" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="-311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-32" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1289" y="-311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-33" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-34" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.72;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="694" y="589" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-35" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-11" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-36" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-37" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-11" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.88;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-38" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1141" y="589" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-39" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1034" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-40" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1248" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-41" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-5" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1408" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-42" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-18" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-43" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-44" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1638" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-45" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1836" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-46" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-5" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2121" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-47" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-23" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2034" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qtvv-E3vwUSL6Ql5mvff-48" edge="1" parent="1" source="Qtvv-E3vwUSL6Ql5mvff-23" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qtvv-E3vwUSL6Ql5mvff-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2208" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
